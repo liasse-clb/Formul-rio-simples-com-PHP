@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (!validarCEP($cep)) {
                 echo "CEP inválido.";
             } else {
-                // Processar os dados (enviar e-mail, salvar no banco de dados, etc.)
+                // Processar os dados 
                 echo "Formulário enviado com sucesso!";
             }
         }
